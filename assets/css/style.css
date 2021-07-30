@@ -1,0 +1,143 @@
+.section3{
+    margin-bottom: 5%;
+    
+  }
+
+  .row-sec3:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column-sec3 {
+    float: left;
+    width: 402px;
+    padding: 0 10px;
+    padding-bottom: 5%;
+    padding-left: 50px;
+    margin-left: 25px;
+  }
+  .card-sec3{
+    background-color: #ffc64b;
+  }
+  .img-sec3{
+    max-width: 100%;
+    height: 40vh;
+  }
+  .sec3-container {
+    padding: 2px 16px;
+    color: black;
+  }
+  .card-sec3 h4{
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .card-sec3 p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .card-sec3:hover , .card-sec3:visited{
+    transform: scale(1.05);
+    background-color: rgb(238, 227, 163);
+  }
+  .btn-sec3{
+    background: white;
+    color: black;
+  }
+  .btn-sec3:hover , .btn-sec3:visited{
+    background-color: rgb(214, 108, 37);
+    color: white;
+  }
+@media screen and (max-width: 600px) {
+  .column-sec3 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+.section2-video{
+    background-color: rgb(255, 229, 219);
+    /* color:rgb(245, 234, 234); */
+    padding-top: 1px;
+    padding-bottom: 5%;
+  }
+  .marquee-wrapper {
+    overflow: hidden;
+  }
+  .marquee {
+    display: flex;
+    animation-name: marquee;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    transform: translateX(0);
+  }
+  .header-video{
+      padding-bottom: 50px;
+      text-align: center;
+
+  }
+
+  @keyframes marquee {
+  from {transform: translateX(0);}
+  to {transform: translateX(-100%);}
+  }
+
+  .section4{
+    margin-bottom: 5%;
+  }
+    
+   .row-sec4:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column-sec4 {
+    float: left;
+    width: 320px;
+    padding: 0 30px;
+    padding-bottom: 5%;
+    padding-left: 50px;
+    margin-left: 40px;
+  }
+  .card-sec4{
+    background-color: #ffc64b;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .sec4-container {
+    padding: 50px 16px;
+    color: black;
+  }
+  .card-sec4 h4{
+    text-transform: uppercase;
+    font-size: 20px;
+    color:rgb(138, 32, 32)
+  }
+  .card-sec4 p{
+    text-align: justify;
+    text-justify: inter-word;
+  }
+  .card-sec4:hover , .card-sec3:visited{
+    transform: scale(1.05);
+    background-color: rgb(238, 199, 163);
+  }
+  .btn-sec4{
+    background: rgb(250, 250, 250);
+    color: black;
+    font-weight: bold ;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 70px;
+  }
+  .btn-sec4:hover , .btn-sec3:visited{
+    background-color: rgb(214, 108, 37);
+    color: white;
+  }
+@media screen and (max-width: 600px) {
+  .column-sec4 {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
