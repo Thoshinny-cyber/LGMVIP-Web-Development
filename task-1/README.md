@@ -9,8 +9,6 @@ CSS
 JAVASCRIPT  
 BOOTSTRAP 
 
-link: **https://thoshinny-cyber.github.io/LGMVIP-Web-Development/**
-
 ![image](https://user-images.githubusercontent.com/69354714/127664700-37779be2-1a95-40cd-a6c1-9a1cfeb9f938.png)
 ![image](https://user-images.githubusercontent.com/69354714/127661908-0370c97b-96f1-4a9a-a335-88bd7b662be6.png)
 ![image](https://user-images.githubusercontent.com/69354714/127662055-8fa507e8-01c4-49e0-895f-d6fde70d64d4.png)
